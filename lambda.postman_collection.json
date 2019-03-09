@@ -1,0 +1,43 @@
+{
+	"variables": [],
+	"info": {
+		"name": "lambda",
+		"_postman_id": "7328f8fb-5b68-7d23-99dc-596c3575ffaf",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LAMBDA extractBalances",
+			"request": {
+				"url": "https://uglmid0m9c.execute-api.us-east-1.amazonaws.com/beta",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-Amz-Date",
+						"value": "",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_id\": \"5c83c48247d6694b6158c242\",\n  \"index\": 0,\n  \"isActive\": true,\n  \"balance\": \"$3,161.92\",\n  \"picture\": \"http://placehold.it/32x32\",\n  \"age\": 38,\n  \"eyeColor\": \"green\",\n  \"name\": {\n    \"first\": \"Dena\",\n    \"last\": \"Kirby\"\n  },\n  \"company\": \"GEEKOLA\",\n  \"email\": \"dena.kirby@geekola.io\",\n  \"phone\": \"+1 (945) 411-3273\",\n  \"address\": \"520 Estate Road, Drummond, Louisiana, 7212\",\n  \"about\": \"Excepteur cupidatat laborum pariatur nostrud ut aliqua enim ullamco labore. Do ad ipsum sit reprehenderit dolor aliquip. Reprehenderit occaecat sunt cupidatat nulla quis duis fugiat dolor ex laboris adipisicing. Cupidatat cillum aliquip sit ipsum tempor dolor aliquip. Fugiat irure non aliqua non veniam ad laboris. Voluptate aute quis ipsum sint incididunt magna magna sunt tempor deserunt ea commodo id voluptate.\",\n  \"registered\": \"Monday, August 28, 2017 8:02 AM\",\n  \"latitude\": \"76.778411\",\n  \"longitude\": \"-147.344681\",\n  \"tags\": [\n    \"in\",\n    \"non\",\n    \"laborum\",\n    \"consequat\",\n    \"magna\"\n  ],\n  \"friends\": [\n    {\n      \"id\": 0,\n      \"name\": \"Carter Armstrong\"\n    },\n    {\n      \"id\": 1,\n      \"name\": \"Reba Zimmerman\"\n    },\n    {\n      \"id\": 2,\n      \"name\": \"Dale Campos\"\n    }\n  ],\n  \"greeting\": \"Hello, Dena! You have 10 unread messages.\",\n  \"favoriteFruit\": \"apple\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
