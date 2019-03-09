@@ -4,6 +4,7 @@ Goal is to write an application that does the following:
 2) store original files in couchdb
 3) call lambda function to process each file
 4) store results in mysql 
+5) output the sum of all balances to stdout
 
 Ulimate goal is to have everything deployed in the cloud (including containerized application and databases)
 
