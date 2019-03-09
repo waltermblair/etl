@@ -37,7 +37,7 @@ aws s3 ls marshall-test/
 
 ### function
 create lambda funcion:
-* wrote Go program extractBalances
+* wrote Go program extractBalances (included in repo for fun, but your app doesn't need to know how it works, just its input and output)
 * deployed function @ https://uglmid0m9c.execute-api.us-east-1.amazonaws.com/beta
 * Postman collection including POST to this function is included in the repo (add your Authorization > AWS Signature)
 
