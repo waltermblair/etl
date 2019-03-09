@@ -11,7 +11,9 @@ Skills/Tools:
 * ETL pattern
 * RESTful services
 * serverless architecture / FaaS
+* cloud deployment / IaaS
 * AWS:
+  * s3, lambda, ec2
   * API
   * CLI
   * IAM (optional)
