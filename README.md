@@ -10,9 +10,10 @@ Ulimate goal is to have everything deployed in the cloud (including containerize
 Skills/Tools:
 * ETL pattern
 * RESTful services
+* serverless architecture / FaaS
 * AWS:
   * API
-  * cli
+  * CLI
   * IAM (optional)
 * Docker
 * git, github
