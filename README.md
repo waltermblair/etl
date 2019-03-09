@@ -8,13 +8,15 @@ Goal is to write an application that does the following:
 Ulimate goal is to have everything deployed in the cloud (including containerized application and databases)
 
 Skills/Tools:
+* ETL pattern
+* RESTful services
 * AWS:
   * API
   * cli
   * IAM (optional)
-* RESTful services
 * Docker
 * git, github
+* couch, mysql
 * Postman (optional)
 
 ## setup (already done)
