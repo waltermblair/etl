@@ -5,6 +5,7 @@ Goal is to write an application that does the following:
 3) call lambda function to process each file
 4) store processed results in mysql 
 5) output the sum of all balances to stdout
+6) serve an http endpoint that returns sum of balances
 
 Ulimate goal is to have everything deployed in the cloud (including containerized application and databases)
 
